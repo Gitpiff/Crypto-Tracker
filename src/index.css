@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Header {
+  display: flex;
+
+}
+
+.Header-Coin {
+  width: 10%;
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+.Header-Symbol {
+  width: 15%;
+  margin-left: 10%;
+  font-weight: bold;
+}
+
+.Header-Ticker {
+  width: 15%;
+  font-weight: bold;
+}
+
+.Header-Price {
+  width: 15%;
+  font-weight: bold;
+}
+
+.Header-Variation {
+  width: 15%;
+  font-weight: bold;
+}
+
+.Header-MCap {
+  font-weight: bold;
+}
+
+.result-count {
+  text-align: center;
+  margin-top: 7%;
+}
+
+.result-card {
+  text-align: center;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  margin-left: 25%;
+}
+
+.youtube-card-h1 {
+text-align: center;
+}
+
+.youtube-card {
+  height: 550px;
+}
